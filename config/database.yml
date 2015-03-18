@@ -1,6 +1,7 @@
 development:
   adapter: postgresql
   encoding: unicode
+  host: localhost
   database: cat-holdings_development
   pool: 5
   username: postgres
@@ -9,15 +10,8 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
+  host: localhost
   database: cat-holdings_test
-  pool: 5
-  username: postgres
-  password: newgen
-
-production:
-  adapter: postgresql
-  encoding: unicode
-  database: cat-holdings_production
   pool: 5
   username: postgres
   password: newgen
