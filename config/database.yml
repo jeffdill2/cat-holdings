@@ -15,3 +15,12 @@ test:
   pool: 5
   username: postgres
   password: newgen
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  database: cat-holdings_production
+  pool: 5
+  username: cat-holdings
+  password:
