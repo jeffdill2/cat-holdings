@@ -22,5 +22,5 @@ production:
   host: localhost
   database: cat-holdings_production
   pool: 5
-  username: cat-holdings
-  password:
+  username: postgres
+  password: newgen
